@@ -1,5 +1,7 @@
 # awesome-agent-runtime-security
 
+ [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
 Agents shouldn't [process arbitrary inputs, communicate externally, and access private data](https://ai.meta.com/blog/practical-ai-agent-security/) simultaneously. 
 Various projects focus on proving the integrity of tools, tool descriptions, models, data sources, and provenance by combining isolation, [sandboxing](https://github.com/SAFE-MCP/safe-mcp/blob/main/mitigations/SAFE-M-9/README.md), security observability, and [server-constrained](https://github.com/SAFE-MCP/safe-mcp/blob/main/mitigations/SAFE-M-31/README.md) or client-bound tokens. This repo was originally inspired by [this listicle](https://gist.github.com/bureado/71dfb7380e8a1cd7294c2f8b8136d085).
 
