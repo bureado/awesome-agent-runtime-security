@@ -239,3 +239,4 @@ Surveys, guides, and foundational literature on Linux security technologies appl
   - [Security Challenges in Container Cloud](https://www.researchgate.net/publication/359967351_Security_Challenges_in_the_Container_Cloud)
   - [SANDBOXESCAPEBENCH](https://arxiv.org/abs/2603.02277) finding that capable models can identify and exploit container escape vulnerabilities
   - [User namespaces are not a security boundary](https://edera.dev/stories/user-namespaces-are-not-a-security-boundary): unprivileged user namespace sandboxes have a long history of kernel exploit vectors; layer additional controls (seccomp, Landlock, AppArmor/SELinux) when relying on them.
+- [APort Agent Guardrails](https://aport.io) - Pre-action authorization guardrails for AI agents and MCP/tool-use workflows.
