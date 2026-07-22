@@ -233,6 +233,7 @@ Papers, frameworks, and documents discussing agent runtime security, threat mode
   - [Attack and Defense Landscape of Agentic AI](https://arxiv.org/abs/2603.11088)
     - See also the [Weather Report analysis](https://theweatherreport.ai/posts/agentic-ai-attack-defense/)
   - [Agents of Chaos](https://arxiv.org/abs/2602.20021) 
+  - [Jailbreaking LLMs' Safeguard with Universal Magic Words](https://arxiv.org/abs/2501.18280) (embedding-layer attack that crafts universal suffixes to bypass RAG safeguards; includes training-free debiasing defense)
   - [CNCF Cloud-Native Agentic Standards](https://www.cncf.io/blog/2026/03/23/cloud-native-agentic-standards/) (Kubernetes-focused Zero-Trust framework for agentic workloads)
   - [AARM: Autonomous Action Runtime Management](https://aarm.dev/) ([paper](https://arxiv.org/abs/2602.09433))
   - [AGCP: Agentic Governance Control Plane](https://github.com/jwillisSFT/agcp-spec)
