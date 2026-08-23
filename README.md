@@ -126,6 +126,7 @@ For a structured approach to evaluating and comparing sandboxes, read [The Agent
 
 ## Provenance, Instrumentation & Observability
 
+- [ccs-lint / CCS](https://github.com/DSHCorrectover/ccs-mcp-server) — Correctover Conformance Shape: cryptographic receipt verification for MCP tool-call responses. Includes a zero-dependency CLI linter and [GitHub Action](https://github.com/DSHCorrectover/ccs-lint-action) for CI-time detection of unsigned trust indicators and receipt injection.
 Projects that instrument agents for security observability, which could be useful for provenance tracking and to feed policy decision points (PDPs), including gateways, proxies, eBPF-based tools, attestation frameworks, policy engines, and tracing systems.
 
 | Name | Keywords | Description |
