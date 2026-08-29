@@ -203,6 +203,7 @@ Projects and technologies that credibly separate (isolate) credentials and token
 | [LEASH](https://github.com/vettid/LEASH) | MCP, vault, action-execution, zero-exposure, connection-contracts | Proposed companion standard to MCP for secret handling. Vault executes operations on the agent's behalf using secrets and returns only results. Platform-bound credentials + binary attestation of the connector process. |
 
 **Other secret management tools of potential interest** include: [sops](https://github.com/getsops/sops), [fnox](https://github.com/jdx/fnox), [dotenvx](https://dotenvx.com/), [varlock](https://varlock.dev/), and [envio](https://github.com/humblepenguinn/envio).
+| [whatileaked](https://github.com/selan-ai/whatileaked) | secret-scanning, transcripts, memory-files, gitleaks, redaction | Local scanner for credentials that a coding agent has already persisted to disk: transcripts (`~/.claude/projects`, `~/.codex/sessions`) and instruction/memory files (`CLAUDE.md`, `AGENTS.md`), the latter re-read at the start of every session so a credential there keeps leaking until the file is edited. Uses the gitleaks rule set unmodified, reports a rule name and one-way fingerprint instead of the secret, and `wipe` redacts findings in place. No network calls, no telemetry, zero dependencies. |
 
 ## Agent Identity & Credentials
 
