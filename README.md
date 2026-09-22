@@ -116,6 +116,7 @@ This is an imperfect, incomplete collection of solutions, tools, protocols and t
 | [Hazmat](https://github.com/dredozubov/hazmat) | macOS, Seatbelt | macOS-native runtime containment for AI agents and coding-agent workflows using Seatbelt sandboxing. |
 | [sandvault](https://github.com/webcoyote/sandvault) | macOS | Each agent runs as a dedicated macOS user behind a `sandbox-exec` profile — no access to your home, keychain, or SSH agent. Shared workspace via git remotes. Brew-installable. |
 | [agentOS](https://github.com/rivet-dev/agentos) | WASM | Virtual OS kernel (filesystem, process table, networking) in WASM for coding agents (Pi, Claude Code, OpenCode). Deny-by-default permissions for fs/net/process, per-agent resource limits. [Blog post](https://rivet.dev/blog/2026-06-29-sandboxless-coding-agents/). |
+| [AgentVault](https://github.com/aashish254/agentvault) | macOS, Seatbelt, policy engine, Ed25519 audit log | Runtime permission firewall for AI agents: wraps any agent CLI with a kernel sandbox (macOS Seatbelt) generated from declarative YAML policy, one-tap approvals via native dialog or Telegram, and a hash-chained, Ed25519-signed audit log. Ships a red-team corpus measured at 103/103 executed attack variants blocked while allowing all tested legitimate dev operations. |
 
 ## Provenance, Instrumentation & Observability
 
