@@ -271,6 +271,7 @@ Papers, frameworks, and documents discussing agent runtime security, threat mode
 
 - Threat models and top-10 style frameworks
   - [OWASP Top 10 Agentic](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
+  - [Agent Baseline](https://agentbaseline.org/) — open `v1.0-draft` catalogue of 35 enterprise agent-security controls across discovery, confinement, authorization, observability, validation, and response. Includes machine-readable [control definitions](https://github.com/agentbaseline/agentbaseline/blob/main/whitepaper/controls.yaml); no conformance program or test methods yet.
   - [Meta: Practical AI Agent Security](https://ai.meta.com/blog/practical-ai-agent-security/)
   - [AWS Agentic AI Security Matrix](https://aws.amazon.com/blogs/security/the-agentic-ai-security-scoping-matrix-a-framework-for-securing-autonomous-ai-systems/) 
   - [AARTS](https://github.com/gendigitalinc/aarts/blob/main/standard.md)
